@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "body": "foo"
+    },
+    {
+      "id": "2",
+      "body": "bar"
+    },
+    {
+      "post": {
+        "id": 3,
+        "body": "good"
+      },
+      "id": "q8voSat"
+    },
+    {
+      "id": 3,
+      "body": "good"
+    },
+    {
+      "body": "good",
+      "id": "QRY4WGr"
+    },
+    {
+      "body": "good",
+      "id": "Be1LMRr"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "post_id": 1
+    },
+    {
+      "id": 2,
+      "post_id": 1
+    },
+    {
+      "id": 3,
+      "post_id": "2"
+    }
+  ]
+}
