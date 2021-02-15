@@ -1,3 +1,9 @@
+this repo has been deployed to 
+
+### heroku
+http://bo-json-server.herokuapp.com/people?q=haley
+
+### mock-end
 https://mockend.com/bochen2014/json-server-test/graphql
 
 ```js
@@ -13,7 +19,7 @@ query myQuery {
 }
 ```
 
-
+### note
 
 ```js
 const argv = yargs.config('config').usage('$0 [options] <source>').options({
