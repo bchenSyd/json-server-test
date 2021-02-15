@@ -2,8 +2,9 @@ const faker = require('faker');
 const _ = require('lodash');
 
 
+// localhost:3000/people
+// localhost:3000/people?id=3
 const generator = () => ({
-
     people: _.times(100, n => ({
         id: n,
         name: faker.name.findName(),

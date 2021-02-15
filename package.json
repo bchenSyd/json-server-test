@@ -1,7 +1,19 @@
 {
+  "name": "json-server-test",
+  "version": "1.0.0",
+  "description": "https://mockend.com/bochen2014/json-server-test/graphql",
+  "main": "generator.js",
+  "scripts": {
+    "start": "json-server -p $PORT generator.js",
+    "heroku-prebuild":  "echo ************ this is run before npm install *******",
+    "heroku-postbuild": "echo ************ this is run after  npm install *******"
+  },
   "dependencies": {
     "faker": "^5.3.1",
     "json-server": "^0.16.3",
     "lodash": "^4.17.20"
-  }
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
