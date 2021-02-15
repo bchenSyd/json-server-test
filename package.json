@@ -4,7 +4,7 @@
   "description": "https://mockend.com/bochen2014/json-server-test/graphql",
   "main": "generator.js",
   "scripts": {
-    "start": "json-server -p $PORT generator.js",
+    "start": "json-server -p $PORT generator.js -H 0.0.0.0",
     "heroku-prebuild":  "echo ************ this is run before npm install *******",
     "heroku-postbuild": "echo ************ this is run after  npm install *******"
   },
