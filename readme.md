@@ -1,3 +1,20 @@
+https://mockend.com/bochen2014/json-server-test/graphql
+
+```js
+query myQuery {
+  comments(limit: 10, where: {body: {eq: "hxgDTePOAh"}}) {
+    id
+    body
+    post {
+      title
+      id
+    }
+  }
+}
+```
+
+
+
 ```js
 const argv = yargs.config('config').usage('$0 [options] <source>').options({
     port: {
